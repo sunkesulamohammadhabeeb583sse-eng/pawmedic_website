@@ -1,0 +1,31 @@
+/* App styles */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure smooth transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Button focus states */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 2px;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+}
+
+/* Image handling */
+img {
+  max-width: 100%;
+  height: auto;
+}
